@@ -1,0 +1,121 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+*
+'hello'
+-87.8
+-
+/
++
+6
+
+Solution: 
+Values - ['hello', -87.8, 6]
+expression or operators - [*, -, / , +]
+__________________________________________________________________________________________________________
+2. What is the difference between string and variable?
+Solution:
+
+String - 
+1 -> string is sequence of characters or data
+2 -> Strings should be enclosed in single or double quotes ex: 'a', "abc"
+3 -> Strings are immutable datatype
+
+Variable - 
+1 -> Variable is data container which holds a data
+2 -> variables are used to assign the data to it.
+3 -> variables value might change if we assign new data
+
+__________________________________________________________________________________________________________
+3. Describe three different data types.
+Solution:
+
+Integer datatype: its a numeric datatype ,  which is a decimal number ex: 10, 1000 , 1000000
+				  They are immutable datatype, base is 10, 
+
+Boolean datatype: There are two boolean types true and false like yes or no
+				  internally True is stored as 1 false is stored as 0
+
+List datatype: Its a advanced datatype in python, where it is used to store homogenous and 					    heterogenous data. 
+				Lists implements dynamic array internally
+				Lists have indexing both positive and negaitive
+				Lists must have enclosed in square brackets [ ] 			 
+				Lists are mutable
+				Lists can be nested lists and contain any kind of objects
+				we can perform some operations like append, insert, remove the elements to it
+				Ex: [1,2,5,'b',9,54,'a', true]
+
+
+__________________________________________________________________________________________________________
+4. What is an expression made up of? What do all expressions do?
+Solution:
+
+basically all kind of expressions are made up operators and operands in any programming language.
+operands are on which we perform some operations using operators. 
+expressions will produce some output as result
+like 
+a = 10 
+b = 20
+
+res = a+b
+res is output here 
+
+__________________________________________________________________________________________________________
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Solution:
+
+spam = 10 is statement
+here we assign the data to variable
+here we dont get any output
+
+spam == 10 is expression  
+here we check the data inside the variable
+here we output either true or false
+
+__________________________________________________________________________________________________________
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Solution:
+
+o/p -> 23
+__________________________________________________________________________________________________________
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Solution:
+
+'spam' + 'spamspam'   --> o/p spamspamspam
+'spam' * 3           --> o/p spamspamspam
+
+__________________________________________________________________________________________________________
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Solution:
+
+because eggs are alphabets or characters where 100 is complete integer we cannot consider it as variable
+variable should be either alphabetic or alphamumeric
+
+__________________________________________________________________________________________________________
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+Solution:
+
+integer - int()
+floating-point number - float()
+string - str()
+
+__________________________________________________________________________________________________________
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Solution:
+
+We cannot concatenate string with an integer datatype. if we do we get SyntaxError
+we can convert to int to string and concatenate
+'I have eaten ' + str(99) + ' burritos.'
+
+__________________________________________________________________________________________________________
