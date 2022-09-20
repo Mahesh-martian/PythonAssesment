@@ -1,0 +1,128 @@
+1. Why are functions advantageous to have in your programs?
+
+Solution:
+
+functions are reusable block of code so if we want to perform same operation again and again we can define a function and write the block of code call the function reuse it allover the program
+__________________________________________________________________________________________________________
+
+2. When does the code in a function run: when it's specified or when it's called?
+
+Solution:
+
+when we call the function
+functioname()
+__________________________________________________________________________________________________________
+
+3. What statement creates a function?
+
+Solution:
+
+def
+__________________________________________________________________________________________________________
+
+4. What is the difference between a function and a function call?
+
+Solution:
+
+function is defining the function which has return statement 
+def func():
+	----
+	----
+	return 
+
+function call is calling the defined function using its name 
+func()
+__________________________________________________________________________________________________________
+
+5. How many global scopes are there in a Python program? How many local scopes?
+
+Solution:
+
+global scopes is one throughout all the program
+
+local scopes can be any number depends on blocks in program
+
+__________________________________________________________________________________________________________
+
+6. What happens to variables in a local scope when the function call returns?
+
+Solution:
+
+variables in a local scope will destroy
+__________________________________________________________________________________________________________
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+
+Solution:
+
+return is the keyword which returns the output of the function.  if function is having the return keyword
+then it is producing the output.
+
+No, Is it not possible to have a return value in an expression.
+only functions can have return 
+__________________________________________________________________________________________________________
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+
+Solution:
+
+No output will be produced it will be None
+
+__________________________________________________________________________________________________________
+
+9. How do you make a function variable refer to the global variable?
+
+Solution:
+
+By using global keyword
+
+ex:
+locvar = 10
+
+global locvar
+__________________________________________________________________________________________________________
+
+10. What is the data type of None?
+
+Solution:
+
+NoneType or None itself
+__________________________________________________________________________________________________________
+
+11. What does the sentence import areallyourpetsnamederic do?
+
+Solution:
+
+imports all data members and methods , class present in areallyourpetsnamederic module
+__________________________________________________________________________________________________________
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+Solution:
+
+import spam
+
+spam.bacon()
+
+__________________________________________________________________________________________________________
+
+13. What can you do to save a programme from crashing if it encounters an error?
+
+Solution:
+
+Excepting handling
+
+use try else block
+
+__________________________________________________________________________________________________________
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+
+Solution:
+
+in try we write risky code 
+if we encounter any error 
+except block excecutes 
+so program will terminate garcefully without any errors
+
+__________________________________________________________________________________________________________
