@@ -25,7 +25,8 @@ Variable -
 1 -> Variable is data container which holds a data
 2 -> variables are used to assign the data to it.
 3 -> variables value might change if we assign new data
-
+number = 10
+number --> variable
 __________________________________________________________________________________________________________
 3. Describe three different data types.
 Solution:
@@ -36,7 +37,7 @@ Integer datatype: its a numeric datatype ,  which is a decimal number ex: 10, 10
 Boolean datatype: There are two boolean types true and false like yes or no
 				  internally True is stored as 1 false is stored as 0
 
-List datatype: Its a advanced datatype in python, where it is used to store homogenous and 					    heterogenous data. 
+List datatype: Its a advanced datatype in python, where it is used to store homogenous and heterogenous data. 
 				Lists implements dynamic array internally
 				Lists have indexing both positive and negaitive
 				Lists must have enclosed in square brackets [ ] 			 
@@ -52,7 +53,7 @@ Solution:
 
 basically all kind of expressions are made up operators and operands in any programming language.
 operands are on which we perform some operations using operators. 
-expressions will produce some output as result
+expressions will produce some output as result on perferming some operations
 like 
 a = 10 
 b = 20
