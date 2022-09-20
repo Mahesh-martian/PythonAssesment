@@ -34,7 +34,7 @@ Solution:
 Integer datatype: its a numeric datatype ,  which is a decimal number ex: 10, 1000 , 1000000
 				  They are immutable datatype, base is 10, 
 
-Boolean datatype: There are two boolean types true and false like yes or no
+Boolean datatype: There are two boolean types True and False like yes or no
 				  internally True is stored as 1 false is stored as 0
 
 List datatype: Its a advanced datatype in python, where it is used to store homogenous and heterogenous data. 
