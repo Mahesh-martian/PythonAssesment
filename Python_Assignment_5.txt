@@ -1,0 +1,75 @@
+1. What does an empty dictionary's code look like?
+
+Solution:
+
+dict1 = { }
+
+__________________________________________________________________________________________________________
+
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+
+Solution:
+
+dict1 = {'foo': 42}
+
+__________________________________________________________________________________________________________
+
+3. What is the most significant distinction between a dictionary and a list?
+
+Solution:
+
+dictionary is declared by curly braces { } where as list is declared by square braces [ ]
+dictionary has key value pair but list does not have.
+
+__________________________________________________________________________________________________________
+
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+
+Solution:
+
+KeyError
+
+__________________________________________________________________________________________________________
+
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and
+'cat' in spam.keys()?
+
+Solution:
+
+'cat' in spam is key or string
+
+'cat' in spam.keys() is list of keys
+
+__________________________________________________________________________________________________________
+
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and
+'cat' in spam.values()?
+
+Solution:
+
+'cat' in spam is key or string
+
+'cat' in spam.values() is list of values
+
+
+__________________________________________________________________________________________________________
+
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+
+Solution:
+
+if 'color' not in spam:spam['color'] = 'black'
+
+
+__________________________________________________________________________________________________________
+
+8. How do you "pretty print" dictionary values using which module and function?
+
+Solution:
+
+using pprint module and pprint method
+
+__________________________________________________________________________________________________________
+
