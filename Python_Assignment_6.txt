@@ -1,0 +1,107 @@
+1. What are escape characters, and how do you use them?
+
+Solution:
+
+\n, \t, \
+
+\ escapes any special character after that like \'
+
+\n  moves to next line
+
+\t gives tab space
+
+\\ back slash
+
+__________________________________________________________________________________________________________
+
+2. What do the escape characters n and t stand for?
+
+Solution:
+
+\n  moves to next line
+
+\t gives tab space
+
+__________________________________________________________________________________________________________
+
+3. What is the way to include backslash characters in a string?
+
+Solution:
+
+\\ back slash
+
+__________________________________________________________________________________________________________
+
+4. The string &quot;Howl's Moving Castle&quot; is a correct value. Why isn't the single quote character in the
+word Howl's not escaped a problem?
+
+
+Solution:
+
+because we using " " to define a string
+
+__________________________________________________________________________________________________________
+
+5. How do you write a string of newlines if you don't want to use the n character?
+
+Solution:
+
+using \r
+
+__________________________________________________________________________________________________________
+
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+
+Solution:
+
+'Hello, world!'[1]    --> e
+'Hello, world!'[0:5]  --> Hello
+'Hello, world!'[:5]   --> Hello
+'Hello, world!'[3:]   --> o, world!
+
+__________________________________________________________________________________________________________
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+
+Solution:
+
+'Hello'.upper()   --> HELLO
+'Hello'.upper().isupper()  --> True
+'Hello'.upper().lower()  --> False
+
+__________________________________________________________________________________________________________
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+
+Solution:
+
+'Remember, remember, the fifth of July.'.split() --> ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July']
+'-'.join('There can only one.'.split())  --> 'There-can-only-one.'
+
+__________________________________________________________________________________________________________
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+
+Solution:
+
+right-justifying - string.rjust
+left-justifying  - string.ljust
+centering - string.centre
+
+__________________________________________________________________________________________________________
+10. What is the best way to remove whitespace characters from the start or end?
+
+Solution:
+
+string.strip()
+
+__________________________________________________________________________________________________________
