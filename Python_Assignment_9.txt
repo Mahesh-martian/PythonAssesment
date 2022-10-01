@@ -1,0 +1,68 @@
+1. To what does a relative path refer?
+
+Solution:
+
+relative path does start from the middle of the heirarchy example file heirarchy
+
+__________________________________________________________________________________________________________
+2. What does an absolute path start with your operating system?
+
+Solution:
+
+
+absolute path start from drive example like "D:\F drive\learning\Data Science"
+__________________________________________________________________________________________________________
+3. What do the functions os.getcwd() and os.chdir() do?
+
+Solution:
+
+os.getcwd() - gets current working directory
+
+os.chdir() - changes working directory to the argument passed
+
+__________________________________________________________________________________________________________
+4. What are the . and .. folders?
+
+Solution:
+
+. means forward
+.. means backward
+__________________________________________________________________________________________________________
+5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+
+Solution:
+
+dir name - C:\bacon\eggs
+
+base name - spam.txt
+
+__________________________________________________________________________________________________________
+6. What are the three “mode” arguments that can be passed to the open() function?
+
+Solution:
+
+'r', 'w', 'a'
+
+__________________________________________________________________________________________________________
+7. What happens if an existing file is opened in write mode?
+
+Solution:
+
+previous data present in the file will be erased
+
+__________________________________________________________________________________________________________
+8. How do you tell the difference between read() and readlines()?
+
+Solution:
+
+read() - will read complete data present in the file
+
+readlines() - will provide the list of lines
+__________________________________________________________________________________________________________
+
+9. What data structure does a shelf value resemble?
+
+Solution:
+
+Dictionary
+__________________________________________________________________________________________________________
